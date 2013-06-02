@@ -30,7 +30,7 @@
 #include <windows.h>
 #endif
 
-#ifdef GDK_WINDOWING_QUARTZ
+#ifdef __APPLE__
 #include <OpenGL/gl.h>
 #else
 #include <GL/gl.h>
